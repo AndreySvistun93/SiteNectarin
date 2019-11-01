@@ -7,7 +7,7 @@ export default class Slider extends Component {
       <section className="greeting-container">
         <div className="greeting_posts">
           <h1>
-            Студия <img src="/img/Ip.png" /> лазерной эпиляции в Бресте
+            Студия <img src="/img/Ip.png" alt = "" /> лазерной эпиляции в Бресте
           </h1>
           <p className="container-text-order-interest">
             Совершенно новая технология, безболезненного, аппаратного удаления

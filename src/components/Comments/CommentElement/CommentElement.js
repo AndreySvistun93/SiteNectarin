@@ -3,11 +3,11 @@ import "./CommentElement.scss";
 
 export default class CommentElement extends Component {
   render() {
-    const { date, description, name } = this.props.props;
+    const { date, description, name, url } = this.props.props;
     return (
       <section className="section-client">
-        <div className="container-img"></div>
-        <div className="img"></div>
+        <img className="container-img" src={url} alt = ""/>
+        <img className="img" src={url} alt = "" />
         <div className="description-section">
           <div className="description-center">
             <p className="header-description">{name}</p>

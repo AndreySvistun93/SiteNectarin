@@ -23,8 +23,6 @@ class App extends Component {
     movieRequest({ url: "/docs/data.json", action: requestData });
   }
   render() {
-    const { dataApp } = this.props;
-    // console.log(dataApp);
     return (
       <Router>
         <Header />

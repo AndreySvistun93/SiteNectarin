@@ -19,7 +19,8 @@ class Comments extends Component {
                     props = {{
                       name:elem.name,
                       description:elem.description,
-                      date:elem.date
+                      date:elem.date,
+                      url:elem.url
                     }}/>
                   );
                 })

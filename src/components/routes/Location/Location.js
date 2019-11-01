@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./Location.scss";
 
+import "./Location.scss";
 import Contacts from "../../Contacts/Contacts";
 import Address from "../../Address/Address";
 import Map_Component from "../../Map_Component/Map_Component";
@@ -12,7 +12,7 @@ export default class Location extends Component {
         <div className="container_location">
           <Contacts />
           <Address />
-          <Map_Component/>
+          <Map_Component />
         </div>
       </main>
     );

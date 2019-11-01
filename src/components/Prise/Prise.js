@@ -66,10 +66,10 @@ export default class Prise extends Component {
 
           <div className="section_container_img">
             <div className="slider-sale">
-              <img src="/img/face.jpg" />
-              <img src="/img/test1.jpg" />
-              <img src="/img/test2.jpg" />
-              <img src="/img/test3.jpg" />
+              <img src="/img/face.jpg" alt = "" />
+              <img src="/img/test1.jpg" alt = "" />
+              <img src="/img/test2.jpg" alt = "" />
+              <img src="/img/test3.jpg" alt = "" />
             </div>
 
             <Link className="button-services" to="/services">

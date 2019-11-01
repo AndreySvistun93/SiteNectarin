@@ -68,8 +68,10 @@
       align-items: center;
       padding-right: 10px;
       .img-circle {
+        text-decoration: none;
         display: flex;
         justify-content: center;
+        color: #38363a;
         align-items: center;
         width: 30px;
         height: 30px;

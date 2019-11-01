@@ -33,7 +33,7 @@ export default class Footer extends Component {
             Nectarin 2019 © All rights reserved
           </div>
           <div className="bottom-right-footer">
-            Designed by <span className="img-circle">AS</span>
+            Designed by <a className="img-circle" href = "https://www.linkedin.com/in/andrey-svistun-758b18152/">AS</a>
           </div>
         </div>
       </footer>

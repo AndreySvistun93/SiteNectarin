@@ -16,7 +16,7 @@ export default class SectionComplex extends Component {
           })}
         </ul>
         <ul className="list-procedure">
-          {area.map((elem, index, className) => {
+          {area.map((elem, index) => {
             return <li key={index}>{elem.name}</li>;
           })}
         </ul>

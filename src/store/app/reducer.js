@@ -10,6 +10,8 @@ export const appReducer = (state = dataAppDefaultState, action) => {
         ...state,
         dataApp: action.payload
       };
+    default:
+      break;
   }
   return state;
 };
