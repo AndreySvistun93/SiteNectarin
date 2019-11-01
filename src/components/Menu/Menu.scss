@@ -1,0 +1,93 @@
+.container-menu {
+  width: 70px;
+  height: 100%;
+  background-color: #a6958b;
+  cursor: pointer;
+  z-index: 99999;
+  .menu {
+    width: 70px;
+    height: 100%;
+    overflow: hidden;
+    background: url(/img/menu.svg) no-repeat center center;
+    background-size: 60%;
+    background-color: #a6958b;
+    &:hover {
+      background-color: #92837b;
+    }
+  }
+  .menu-menu {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #38363a;
+    .close-container {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+
+      .button-close-menu {
+        margin: 10px 10px 0px 0px;
+        width: 50px;
+        height: 50px;
+        background: url(/img/menu-close.svg) no-repeat center center;
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.1);
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+      }
+    }
+    .container-items-menu {
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      bottom: 0px;
+
+      .header-menu {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0px;
+        border-bottom: 1px solid wheat;
+        color: wheat;
+        font-size: 17pt;
+      }
+      .list-menu {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        list-style: none;
+        width: 60%;
+        border-bottom: 1px solid wheat;
+        li {
+          line-height: 120px;
+          text-align: center;
+          color: wheat;
+          font-size: 4vw;
+          font-weight: 200;
+          @media (max-width: 780px) {
+            line-height: 70px;
+          }
+          .link_router {
+            display: block;
+            width: 100%;
+            color: wheat;
+            text-decoration: none;
+            height: 100%;
+            &:hover {
+              background-color: #403e42;
+            }
+          }
+        }
+      }
+      @media (max-width: 780px) {
+        width: 100%;
+      }
+    }
+  }
+}

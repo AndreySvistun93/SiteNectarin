@@ -1,0 +1,43 @@
+.comments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  width: 100%;
+  height: auto;
+  background-color: #38363a;
+  border-bottom: 1px solid wheat;
+  padding-bottom: 30px;
+
+  .container-comments {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    @media (min-width: 2000px) {
+      width: 60%;
+    }
+    @media (max-width: 780px) {
+      width: 100%;
+    }
+    .comments_header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 40px;
+      background-color: wheat;
+      color: #38363a;
+      font-size: 18pt;
+    }
+    .container-section-client {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+     
+    }
+  }
+}

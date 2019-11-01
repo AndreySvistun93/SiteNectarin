@@ -1,0 +1,32 @@
+.header {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: auto;
+  z-index: 999999;
+}
+
+@media (max-width: 520px) {
+  .sign_ap {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .cabinet {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .info_list_header {
+    width: 100%;
+    transition: 1.5s;
+  }
+}
+
+@media (min-width: 1100px) {
+  .check_box_menu:checked + div + div {
+    display: none;
+  }
+}

@@ -1,0 +1,106 @@
+.card {
+  position: relative;
+  margin: 15px 0px 0px 15px;
+  width: 290px;
+  height: 182px;
+  transition: 2s;
+  perspective: 1000px;
+  cursor: pointer;
+  &:hover .front {
+    transform: rotateY(180deg);
+  }
+  &:hover .back {
+    transform: rotateY(360deg);
+  }
+  .front,
+  .back {
+    background: url(/img/effect1.png) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    position: absolute;
+    background-color: #38363a;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: 1s;
+    transition-delay: 0.2s;
+    box-shadow: 1px 3px 5px #38363a;
+  }
+  .front {
+    color: wheat;
+    p {
+      color: rgb(253, 201, 70);
+      font-size: 4em;
+      margin: 0px 10px;
+      span {
+        color: #fdc946;
+        font-size: 8pt;
+      }
+    }
+    .text-top {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      color: #fdc946;
+    }
+    .text-bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 20px;
+      background-color: #38363a;
+      text-align: center;
+    }
+  }
+  .back {
+    background-color: white;
+    transform: rotateY(180deg);
+    flex-direction: column;
+    .text-top {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      color: #38363a;
+      font-size: 12pt;
+    }
+    .header_back {
+      display: none;
+      @media (max-width: 780px) {
+        display: block;
+      }
+    }
+    .container-contacts {
+      color: #38363a;
+      font-size: 16pt;
+      height: 20%;
+      width: 80%;
+      border-radius: 5px;
+      .tell_mobyle {
+        display: none;
+        color: #38363a;
+        text-decoration: none;
+        @media (max-width: 780px) {
+          display: block;
+        }
+      }
+      .telltell_PC {
+        @media (max-width: 780px) {
+          display: none;
+        }
+      }
+    }
+    .back-insta{
+      a{
+        color: #8f6a0c;
+      }
+    }
+  }
+  @media (max-width: 580px) {
+    margin: 15px 0px 0px 0px;
+  }
+}

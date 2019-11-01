@@ -1,0 +1,99 @@
+.container-contacts {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container-center {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0px;
+    @media (max-width: 780px) {
+      padding: 20px 0px;
+      width: 100%;
+    }
+    @media (min-width: 2000px) {
+      width: 60%;
+    }
+    h1 {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: wheat;
+      color: #38363a;
+      margin-top: 30px;
+      padding: 5px 0px;
+      @media (max-width: 780px) {
+        margin-top: 0px;
+      }
+    }
+
+    .contacts-description {
+      width: 90%;
+      font-size: 16pt;
+      margin: 20px 0px;
+      text-align: center;
+    }
+    .tel_contacts {
+      .tell_mobyle {
+        display: none;
+        margin-top: 10px;
+        a {
+          text-decoration: none;
+          color: black;
+          font-size: 20pt;
+        }
+        @media (max-width: 780px) {
+          display: block;
+        }
+      }
+      .contacts-number {
+        @media (max-width: 780px) {
+          display: none;
+        }
+      }
+    }
+    .contacts-number {
+      width: 100%;
+      font-size: 55pt;
+      color: #38363a;
+      text-align: center;
+      @media (max-width: 780px) {
+        font-size: 25pt;
+      }
+    }
+    .contacts-social {
+      width: 90%;
+      font-size: 16pt;
+      margin: 20px 0px;
+      text-align: center;
+    }
+
+    .container-social {
+      cursor: pointer;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .img-social {
+        width: 80px;
+        height: 80px;
+        background: url(/img/instagram.jpg) no-repeat center center;
+        background-size: cover;
+      }
+      a {
+        text-decoration: none;
+        .text-social {
+          font-size: 18pt;
+          color: black;
+        }
+      }
+    }
+  }
+}

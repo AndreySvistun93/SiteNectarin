@@ -1,0 +1,82 @@
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #38363a;
+  .top-footer {
+    padding: 30px 0px;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: wheat;
+    .logo_img {
+      width: 80px;
+      height: auto;
+    }
+    .footer_insta {
+      a {
+        color: white;
+      }
+    }
+
+    div {
+      text-align: center;
+      .tell_mobyle {
+        display: none;
+        margin-top: 10px;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+        @media (max-width: 780px) {
+          display: block;
+        }
+      }
+      .telltell_PC {
+        @media (max-width: 780px) {
+          display: none;
+        }
+      }
+      @media (max-width: 780px) {
+        margin-top: 10px;
+      }
+      span {
+        color: white;
+      }
+    }
+    @media (max-width: 780px) {
+      flex-direction: column;
+    }
+  }
+  .bottom-footer {
+    padding: 10px 0px;
+    width: 100%;
+    display: flex;
+    .bottom-left-footer {
+      padding-left: 10px;
+      width: 50%;
+      height: 30%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .bottom-right-footer {
+      width: 50%;
+      height: 30%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding-right: 10px;
+      .img-circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 50%;
+        margin-left: 5px;
+      }
+    }
+  }
+}
