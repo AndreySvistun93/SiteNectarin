@@ -5,7 +5,7 @@ export default class Card extends Component {
   render() {
     const { pryse, money } = this.props.props;
     return (
-      <div className="card">
+      <section className="card">
         <span className="front">
           <p>
             {pryse}
@@ -23,14 +23,14 @@ export default class Card extends Component {
             </a>
             <p className="telltell_PC">+375(33) 609-77-18</p>
           </div>
-          <div className = "back-insta">
+          <div className="back-insta">
             Инстаграм:
             <a href="https://instagram.com/iplaser.brest?igshid=1nsod6lnphv6m">
               <span> @iplaser.brest</span>
             </a>
           </div>
         </span>
-      </div>
+      </section>
     );
   }
 }

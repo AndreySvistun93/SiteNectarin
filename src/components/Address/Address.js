@@ -5,7 +5,7 @@ export default class Address extends Component {
   render() {
     return (
       <article className="container-address">
-        <div className="container-center">
+        <section className="container-center">
           <div className="container-address-discription">
             <p className="header-block">Мы находимся по адресу:</p>
             <div className="container-discription">
@@ -15,7 +15,7 @@ export default class Address extends Component {
             </div>
           </div>
           <div className="container-address-video"></div>
-        </div>
+        </section>
       </article>
     );
   }

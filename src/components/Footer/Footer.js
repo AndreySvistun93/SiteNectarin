@@ -14,7 +14,7 @@ export default class Footer extends Component {
                 <span> +375(29) 609 77 18</span>
               </a>
             </p>
-            <p className="telltell_PC">
+            <p className="tell_PC">
               Телефон: <span> +375(29) 609 77 18</span>
             </p>
           </div>

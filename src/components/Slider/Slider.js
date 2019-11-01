@@ -4,10 +4,10 @@ import "./Slider.scss";
 export default class Slider extends Component {
   render() {
     return (
-      <section className="greeting-container">
-        <div className="greeting_posts">
+      <article className="greeting-container">
+        <section className="greeting_posts">
           <h1>
-            Студия <img src="/img/Ip.png" alt = "" /> лазерной эпиляции в Бресте
+            Студия IP лазерной эпиляции в Бресте
           </h1>
           <p className="container-text-order-interest">
             Совершенно новая технология, безболезненного, аппаратного удаления
@@ -18,8 +18,8 @@ export default class Slider extends Component {
             <span> 50% </span>
           </div>
           <button className="order-button">Сделать заказ</button>
-        </div>
-      </section>
+        </section>
+      </article>
     );
   }
 }

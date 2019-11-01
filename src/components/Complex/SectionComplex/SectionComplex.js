@@ -5,7 +5,7 @@ export default class SectionComplex extends Component {
   render() {
     const { area, pryse } = this.props.props;
     return (
-      <div className="container-section-complex">
+      <section className="container-section-complex">
         <ul className="list-img">
           {area.map((elem, index) => {
             return (
@@ -26,7 +26,7 @@ export default class SectionComplex extends Component {
           </span>
         </div>
         <button className="button-complex">Заказать комплекс</button>
-      </div>
+      </section>
     );
   }
 }

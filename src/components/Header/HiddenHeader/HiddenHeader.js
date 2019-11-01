@@ -1,14 +1,21 @@
 import React, { Component } from "react";
 import Menu from "../../Menu/Menu";
+import { Link } from "react-router-dom";
 import "./HiddenHeader.scss";
 
 export default class HiddenHeader extends Component {
   render() {
     return (
-      <article className="header_hidden_container">
+      <section className="header_hidden_container">
         <div className="left_container">
           <Menu />
-          <img className="header_logo" src="./img/3445179.png" alt="Логотип" />
+          <Link className="link_router" to="/">
+            <img
+              className="header_logo"
+              src="./img/3445179.png"
+              alt="Логотип"
+            />
+          </Link>
         </div>
         <div className="right_container">
           <nav className="menu_header"></nav>
@@ -31,7 +38,7 @@ export default class HiddenHeader extends Component {
             </li>
           </ul>
         </div>
-      </article>
+      </section>
     );
   }
 }

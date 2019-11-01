@@ -7,12 +7,12 @@ import Sertificate from "../../components/Sertificate/Sertificate";
 export default class Services extends Component {
   render() {
     return (
-      <article className="container-services">
+      <article className="container-services-page">
         <div className="container-center">
           <ServicesPrise />
           <Order />
           <Complex />
-          <Sertificate/>
+          <Sertificate />
           <Order />
         </div>
       </article>

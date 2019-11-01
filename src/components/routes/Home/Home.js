@@ -11,7 +11,7 @@ export default class Home extends Component {
   render() {
     return (
       <main className="main">
-        <div className="container_home">
+        <div className="container_home_page">
           <Slider />
           <Iplaser />
           <Sertificate />

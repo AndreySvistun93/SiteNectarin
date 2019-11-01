@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import "./Comments.scss";
 
-import  CommentElement  from "./CommentElement/CommentElement";
+import CommentElement from "./CommentElement/CommentElement";
 class Comments extends Component {
   render() {
     const { dataApp } = this.props;
@@ -14,14 +14,15 @@ class Comments extends Component {
             {dataApp.books
               ? dataApp.books.personsComments.map((elem, index) => {
                   return (
-                    <CommentElement 
-                    key={index} 
-                    props = {{
-                      name:elem.name,
-                      description:elem.description,
-                      date:elem.date,
-                      url:elem.url
-                    }}/>
+                    <CommentElement
+                      key={index}
+                      props={{
+                        name: elem.name,
+                        description: elem.description,
+                        date: elem.date,
+                        url: elem.url
+                      }}
+                    />
                   );
                 })
               : null}

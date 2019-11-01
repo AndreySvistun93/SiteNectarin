@@ -10,7 +10,7 @@ export default class Contacts extends Component {
           <p className="contacts-description">
             Телефон по которому с нами можно связаться{" "}
           </p>
-          <div className = "tel_contacts">
+          <div className="tel_contacts">
             <p className="tell_mobyle">
               <a href="tel:+ 375336097718 ">
                 <span> +375(29) 609 77 18</span>

@@ -4,7 +4,7 @@ import "./HeaderFirst.scss";
 export default class HeaderFirst extends Component {
   render() {
     return (
-      <article className="header_first_container">
+      <section className="header_first_container">
         <div className="work_time_info_container">
           <ul className="info_list_header">
             <li>
@@ -21,10 +21,10 @@ export default class HeaderFirst extends Component {
                 src="./img/phone-48px-black.png"
                 alt="Телефон"
               />
-              <span className = "tell_mobyle">
+              <span className="tell_mobyle">
                 <a href="tel:+ 375336097718 "> +375(33) 609 77 18</a>
               </span>
-              <span className = "telltell_PC"> +375(29) 609 77 18</span>
+              <span className="telltell_PC"> +375(29) 609 77 18</span>
             </li>
             <li>
               <img
@@ -36,7 +36,7 @@ export default class HeaderFirst extends Component {
             </li>
           </ul>
         </div>
-      </article>
+      </section>
     );
   }
 }

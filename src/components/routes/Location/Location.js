@@ -9,7 +9,7 @@ export default class Location extends Component {
   render() {
     return (
       <main className="main">
-        <div className="container_location">
+        <div className="container_location_page">
           <Contacts />
           <Address />
           <Map_Component />
