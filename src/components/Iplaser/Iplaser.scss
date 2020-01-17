@@ -5,8 +5,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #a6958b;
-  padding: 30px 0px;
+  background: #38363a;
+  padding: 70px 0px;
 
   .header_section {
     display: flex;
@@ -16,9 +16,17 @@
     height: 50px;
     text-align: center;
     font-size: 20pt;
-    color: white;
+    color: wheat;
     text-align: justify;
     background-color: #38363a;
+    background: linear-gradient(
+      to right,
+      #a6958b 0%,
+      #655953 16%,
+      #38363a 47%,
+      #69625d 81%,
+      #a6958b 100%
+    );
     @media (min-width: 2000px) {
       width: 60%;
     }
@@ -34,6 +42,7 @@
     height: auto;
     font-size: 14pt;
     color: white;
+    
     @media (min-width: 2000px) {
       width: 60%;
     }

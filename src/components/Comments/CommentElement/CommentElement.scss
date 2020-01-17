@@ -40,6 +40,7 @@
     width: calc(100% - 150px);
     min-height: 189px;
     background-color: white;
+    background: linear-gradient(to right, white 0%, white 16%, #fff5e4  100%);
     .description-center {
       position: relative;
       display: flex;

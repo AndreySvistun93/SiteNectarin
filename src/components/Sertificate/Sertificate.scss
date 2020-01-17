@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  padding: 100px 0px;
+  padding: 70px 0px;
 
   @media (max-width: 780px) {
     padding: 30px 0px;
@@ -20,7 +20,15 @@
     height: 50px;
     background-color: wheat;
     color: #38363a;
-    font-size: 25pt;
+    font-size: 20pt;
+    background: linear-gradient(
+      to right,
+      #e2dbd7 0%,
+      wheat 30%,
+      wheat 47%,
+      wheat 60%,
+      #e2dedb 100%
+    );
     @media (min-width: 2000px) {
       width: 60%;
     }
