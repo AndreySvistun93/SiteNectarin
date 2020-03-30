@@ -78,7 +78,7 @@ class Menu extends Component {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> 
         ) : null}
       </div>
     );
