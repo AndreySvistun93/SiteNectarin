@@ -9,7 +9,7 @@
     "enzyme-adapter-react-16": "^1.15.1",
     "express": "^4.17.1",
     "jest": "^24.9.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "pascalcase": "^1.0.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
